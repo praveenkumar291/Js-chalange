@@ -26,10 +26,21 @@
 
 // console.log(c);
 
-// dynamic substract to numbers ................................
+// dynamic multi to numbers ................................
 
-let a = prompt("plese substract first number");
+// let a = prompt("plese substract first number");
 
-let b = prompt("plese substract second number");
-var c = parseInt(a) * parseInt(b);
-console.log(c);
+// let b = prompt("plese substract second number");
+// var c = parseInt(a) * parseInt(b);
+// console.log(c);.............................................
+
+
+// write a java script program to check the two numbers and return true if one of the numbers is 100 or if the sum of the two numbers is 100
+
+const isEqualTo100 = (a, b) => a === 100 || b === 100 || (a+b) === 100;
+
+console.log(isEqualTo100(100, 0));
+console.log(isEqualTo100(10, 90));
+console.log(isEqualTo100(80, 20));
+console.log(isEqualTo100(10, 100));
+console.log(isEqualTo100(100, 0));
