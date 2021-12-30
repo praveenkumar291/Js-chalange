@@ -24,5 +24,4 @@ let a = prompt("plese enter first number");
 let b = prompt("plese enter second number");
 var c = parseInt(a) + parseInt(b);
 
-console.log(c
-)
+console.log(c);
