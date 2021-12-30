@@ -20,8 +20,16 @@
 
 // dynamic add numbers ........................................
 
-let a = prompt("plese enter first number");
-let b = prompt("plese enter second number");
-var c = parseInt(a) + parseInt(b);
+// let a = prompt("plese enter first number");
+// let b = prompt("plese enter second number");
+// var c = parseInt(a) + parseInt(b);
 
+// console.log(c);
+
+// dynamic substract to numbers ................................
+
+let a = prompt("plese substract first number");
+
+let b = prompt("plese substract second number");
+var c = parseInt(a) * parseInt(b);
 console.log(c);
