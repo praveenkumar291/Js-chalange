@@ -31,3 +31,28 @@
 //   console.log("sample",name)
 // }
 // sample.apply(null,["praveen"])
+
+
+// aSynchronous
+
+// console.log("parveen")
+
+// setTimeout(() => {
+
+//   console.log('vijju');
+//   console.log("harsha")
+// }, 2000)
+
+// console.log('bhargav');
+
+// callBack & promise................................
+
+const p1 = Promise.resolve('my name is praveen ');
+const p2 = Promise.reject('Rejected');
+const p3 = 100;
+const p4 = new Promise((resolve, reject) => {
+  setTimeout(resolve, 1000, 'Subscribe more up dates')
+});
+Promise.race([p1, p3, p4]).then((value) => console.log(value))
+Promise.allSettled([p1, p3, p4]).then((value) => console.log(value));
+Promise.any([p1, p3, p4]).then((value) => console.log(value));
